@@ -41,7 +41,7 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-                <Form.Label className="has-text-white">Phone Number</Form.Label>
+      <Form.Label>Phone Number</Form.Label>
                 <Form.Control>
                     <Form.Input color="success" name="phone" placeholder="Your Phone Number" />
                     <Icon align="left" size="small">
