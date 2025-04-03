@@ -13,7 +13,7 @@ export function SubscriberForm() {
         <Form.Control>
           <Form.Input
             color="success"
-            name="clientname"
+            name="clientName"
           />
           <Icon align="left" size="small">
             <i className="fas fa-user" />
