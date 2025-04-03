@@ -9,11 +9,11 @@ export function SubscriberForm() {
         console.log(formObject);
     }}>
       <Form.Field>
-        <Form.Label>Username</Form.Label>
+        <Form.Label>Client Name</Form.Label>
         <Form.Control>
           <Form.Input
             color="success"
-            name="username"
+            name="clientname"
           />
           <Icon align="left" size="small">
             <i className="fas fa-user" />
@@ -22,7 +22,6 @@ export function SubscriberForm() {
             <i className="fas fa-check" />
           </Icon>
         </Form.Control>
-        <Form.Help color="success">This username is available</Form.Help>
       </Form.Field>
 
       <Form.Field>
