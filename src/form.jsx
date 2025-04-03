@@ -43,7 +43,7 @@ export function SubscriberForm() {
       <Form.Field>
       <Form.Label>Phone Number</Form.Label>
                 <Form.Control>
-                    <Form.Input color="success" name="phone" placeholder="Your Phone Number" />
+                    <Form.Input color="danger" name="phone" placeholder="Your Phone Number" />
                     <Icon align="left" size="small">
                         <i className="fas fa-phone" />
                     </Icon>
