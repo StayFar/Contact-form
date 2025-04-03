@@ -42,14 +42,16 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        <Form.Label>Subject</Form.Label>
+        <Form.Label>Event Type</Form.Label>
         <Form.Field kind="group">
           <Form.Control>
             <Form.Select
-              name="subject"
+              name="eventType"
             >
-              <option value="select-dropdown">Select dropdown</option>
-              <option value="with-options">With options</option>
+              <option value="wedding">Wedding</option>
+                        <option value="corporate">Corporate Event</option>
+                        <option value="birthday">Birthday Party</option>
+                        <option value="other">Other</option>
             </Form.Select>
           </Form.Control>
           <Form.Control fullwidth loading>
