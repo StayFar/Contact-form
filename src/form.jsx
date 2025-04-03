@@ -55,7 +55,7 @@ export function SubscriberForm() {
             </Form.Select>
           </Form.Control>
           <Form.Control fullwidth loading>
-            <Form.Input placeholder="With loading state" />
+            <Form.Input placeholder="Additional details about your event" />
           </Form.Control>
         </Form.Field>
       </Form.Field>
