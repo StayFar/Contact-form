@@ -63,6 +63,15 @@ export function SubscriberForm() {
               <option value="wedding">Wedding</option>
                         <option value="corporate">Corporate Event</option>
                         <option value="birthday">Birthday Party</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="graduation">Graduation</option>
+                        <option value="holiday">Holiday Event</option>
+                        <option value="reunion">Reunion</option>
+                        <option value="retirement">Retirement Party</option>
+                        <option value="charity">Charity Event</option>
+                        <option value="engagement">Engagement Party</option>
+                        <option value="bridal">Bridal Shower</option>
+                        <option value="baby">Baby Shower</option>
                         <option value="other">Other</option>
             </Form.Select>
           </Form.Control>
