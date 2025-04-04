@@ -14,7 +14,7 @@ export function SubscriberForm() {
           <Form.Input
             color="success"
             name="clientName"
-          />
+            placeholder="Your Full Name"/>
           <Icon align="left" size="small">
             <i className="fas fa-user" />
           </Icon>
@@ -30,7 +30,7 @@ export function SubscriberForm() {
           <Form.Input
             color="danger"
             name="email"
-          />
+            placeholder="A Valid Email Address"/>
           <Icon align="left" size="small">
             <i className="fas fa-envelope" />
           </Icon>
